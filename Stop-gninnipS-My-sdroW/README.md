@@ -47,11 +47,11 @@ void spin_words(const char *sentence, char *result) {
 
 ---
 ** Usage **
-1- Include spin_words.c in your C project.
-2- Call spin_words(input, result) where:
+1. Include spin_words.c in your C project.
+2. Call spin_words(input, result) where:
 - input is the original sentence.
 - result is a pre-allocated buffer to store the modified sentence.
-3- Words with 5 or more letters will be reversed.
+3. Words with 5 or more letters will be reversed.
 
 ---
 ** Example **
@@ -62,5 +62,6 @@ void spin_words(const char *sentence, char *result) {
 ---
 
 Author: Daniele Perez / Eestika
+
 Source: Codewars Kata
 
