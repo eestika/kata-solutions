@@ -44,7 +44,9 @@ char *to_jaden_case(char *dest, const char *src) {
 }
 
 ---
+
 **Usage**
+
 1. Include jaden_casing.c in your C project.
 2. Call to_jaden_case(destination, source), ensuring destination has enough space.
 3. Each word in source will be capitalized in destination.
