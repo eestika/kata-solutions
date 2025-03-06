@@ -1,12 +1,6 @@
 #include <stddef.h>
 #include <stdlib.h> // Required for malloc()
 
-// Define a structure to represent a point (x, y)
-struct Point {
-    int x;
-    int y;
-};
-
 // Function to return the 8 neighboring points of a given coordinate (x, y)
 int **cartesian_neighbor(int x, int y) {
     // Allocate memory for 8 rows (each row represents a point)
